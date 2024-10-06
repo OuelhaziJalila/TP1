@@ -26,7 +26,7 @@ public int getAnnee(){
 	return annee;
 }
 public void setJour(int jour) {
-    this.mois = mois;
+    this.jour = jour;
 }
 public void setMois(int mois) {
     this.mois = mois;
