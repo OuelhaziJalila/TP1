@@ -20,11 +20,7 @@ public class Collection {
 		            SrfT+=((Assiette)us[i]). calculerSurface();
 		        }
 		    }
-		System.out.println("Surface total"
-				+ ""
-				+ ""
-				+ ""
-				+ "e des assiettes : " + SrfT);
+		System.out.println("Surface total des assiettes : " + SrfT);
 		}
 		static void afficherValeurTotale(Ustensile[] us) {
 		    double vT = 0;
