@@ -31,7 +31,7 @@ public class TestPoint {
             case 2:
                 System.out.print("Entrez le nombre de jours à ajouter: ");
                 int n = scanner.nextInt();
-                d1.ajouterPlusieursJours(n);
+                d1.ajouterPlusieursJours(6);
                 System.out.println("Date après l'ajout de " + n + " jours: " + (d1.toString()));
                 break;
             case 3:
