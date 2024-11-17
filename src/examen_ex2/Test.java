@@ -33,7 +33,10 @@ public class Test {
         if ( rslt != null) {
             System.out.println("Résultat d'Alice : " +  rslt);
         }
-        
+        Athlete v = ep.getVainqueur();
+        if (v != null) {
+            System.out.println("Vainqueur : " + v.getNom());
+        }
         
     }
 }
