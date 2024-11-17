@@ -28,7 +28,12 @@ public class Test {
         } catch (IllegalStateException e) {
             System.out.println("C'est impossible ");
         }
-
+        
+        Resultat rslt = ep.getResultat(1);
+        if ( rslt != null) {
+            System.out.println("Résultat d'Alice : " +  rslt);
+        }
+        
         
     }
 }
