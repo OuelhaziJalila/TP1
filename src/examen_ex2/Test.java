@@ -31,7 +31,7 @@ public class Test {
         
         Resultat rslt = ep.getResultat(1);
         if ( rslt != null) {
-            System.out.println("Résultat d'Alice : " +  rslt);
+            System.out.println("Résultat de Ahmed : " +  rslt);
         }
         Athlete v = ep.getVainqueur();
         if (v != null) {
